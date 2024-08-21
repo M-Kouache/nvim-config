@@ -10,6 +10,11 @@
 
 ## 📦 Installation
 
+    Ensure that you have the following dependencies installed:
+    - Neovim (v0.10+) [build neovim from the source](https://github.com/neovim/neovim/blob/master/BUILD.md)
+    - Node.js (for LSP support)
+    - Python (for various plugins)
+
 1. **Clone the repository:**
 
     ```bash
