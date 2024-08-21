@@ -38,8 +38,9 @@
 ├── README.md
 ├── lua
 |   └- mo
-        |- lazy
-│           ├── comment.lua
+|       |- lazy
+│           ├── init.lua
+│           ├── theme.lua
 │           ├── conform.lua 
 │           ├── autopairs.lua
 │           ├── lspconfig.lua
@@ -50,5 +51,4 @@
 |       |-- remap.lua
 |       |-- settings.lua
 └── plugin/
-
-
+```
