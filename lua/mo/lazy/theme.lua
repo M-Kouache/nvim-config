@@ -8,7 +8,7 @@ return { -- You can easily change to a different colorscheme.
 	init = function()
 		require("tokyonight").setup({
 			style = "storm",
-			transparent = true,
+			transparent = false,
 		})
 
 		-- Load the colorscheme here.

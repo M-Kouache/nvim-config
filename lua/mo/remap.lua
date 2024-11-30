@@ -18,6 +18,17 @@ vim.keymap.set("n", "<C-k>", "<C-w><C-k>", { desc = "Move focus to the upper win
 vim.keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>")
 vim.keymap.set("n", "<leader>t", ":NvimTreeFindFile<CR>")
 
+-- Set Block fold keymaps
+-- Space to toggle folds
+vim.keymap.set("n", "<leader>z", "za", { noremap = true, silent = true })
+
+-- Fold all
+vim.keymap.set("n", "<leader>a", "zM", { noremap = true, silent = true })
+
+-- Unfold all
+vim.keymap.set("n", "<leader>fu", "zR", { noremap = true, silent = true })
+-----
+
 vim.api.nvim_create_autocmd("TextYankPost", {
 	desc = "Highlight when yanking (copying) text",
 	group = vim.api.nvim_create_augroup("kickstart-highlight-yank", { clear = true }),
